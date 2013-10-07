@@ -1,0 +1,70 @@
+/*stylesheet for project 2
+ created February 11th, 2013*/
+th{ /*having fun with the gradient generator here: http://www.colorzilla.com/gradient-editor/*/
+	height: 40px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-family: "Gill Sans";
+}
+th > a {
+
+	color: #fff;
+
+}
+td{	
+	font-family: "Book Antiqua"
+	padding: 1%;
+	text-align: center;
+}
+tr{ 	/*more gradient generator fun below*/
+
+	background: #fcfff4; /* Old browsers */
+	background: -moz-linear-gradient(top, #fcfff4 0%, #e9e9ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(100%,#e9e9ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fcfff4 0%,#e9e9ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+}
+td > a, td > a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+tr:hover{
+	background: #FCFFF4;
+}
+a {
+
+	text-decoration: none;
+	font-color: #FFF;
+
+}
+#forward{
+
+	text-align: right;
+}
+#backward{
+
+	text-align: left;
+
+}
+.link_buttons, .link_buttons > a, .link_buttons > a:visited{
+	text-decoration: underline;
+	color: #a90329;
+}
+.announcement{
+	margin-left: 50px;
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+<!HTML>
+
+	<head>
+		<title>	Search</title>
+	</head>
+
+
+
+	<body>
+	
+	<h1>Welcome to the OpenVideo search form</h1>
+
+
+
+	<form method = "get" action = "search.php">
+	<!--begin search form below-->
+	<p>You can search for videos using any or all of the criteria below:</p>
+	Video Title: <input type = "text" name = "titleSearch"></br>
+	Video Keywords <input type = "text" name = "keySearch"></br>
+	Search over title, description and keywords fields combined: <input type= "text" name = "comboFields"></br>
+	</br>
+	<p>Search for a range of videos:</p>
+	Start Year:<input type = "text" name = "startYear">End Year:<input type = "text" name = "endYear"></br>
+	Minimum Length in Seconds <input type = "text" name = "minSecs"> Maximum Length in Seconds <input type = "text" name = "maxSecs"></br>
+	<input type = "checkbox" name = "sound" value = "Yes">Only find records with sound</br>
+	<input type = "checkbox" name = "color" value = "Yes">Only find records in color</br>
+
+	<input type = "submit" value = "Submit">
+
+	</form>
+	<!--close the search form-->
+
+
+
+	</body>	
+
+
+</html>
