@@ -1,0 +1,1 @@
+This is a repo showcasing almost all the code for projects from INLS 760, Web Databases, offered in Spring 2013 at UNC Chapel Hill. The course focused heavily on PHP and MySQL with some JavaScript/jQuery and Ajax tossed in towards the end. Between this course, a job, and another course, I essentially lived on Unix-based filesystems that semester, which was pretty cool.
