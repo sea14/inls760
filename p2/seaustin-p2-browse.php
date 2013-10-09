@@ -6,7 +6,7 @@
 
 <?php
 //connect to the database
-$connect = mysql_connect('pearl.ils.unc.edu', 'webdb_3', 'jacktuckerjet1994') or trigger_error("SQL", E_USER_ERROR);
+$connect = mysql_connect('pearl.ils.unc.edu', 'webdb_3', 'blaaaaah') or trigger_error("SQL", E_USER_ERROR);
 $db = mysql_select_db('webdb_3', $connect) or trigger_error("SQL", E_USER_ERROR);
 
 
